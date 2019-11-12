@@ -1,12 +1,83 @@
+/* Start sizes in px */
+/* body {
+  height: 100vh;
+  margin: 0;
+} */
+
+.flagContainer {
+  /* height: 8%; */
+  /* width: 13%; */
+  /* height: 20vh;
+  width: 36vh; */
+
+  /* Outer most things and proportional elements should use vh, vmin */
+  height: 20vmin;
+  width: 36vmin;
+  background-color: pink;
+  border: 1px solid black;
+}
+
 /* Indonesia */
+#indonesia > .section {
+  height: 50%;
+}
 
 /* Colombia */
 
+#colombia .section, #colombia .sub_section{
+  height: 50%;
+}
+
 /* Ireland */
+
+#ireland {
+  display: flex;
+  background-color: white;
+}
+
+#ireland > .thirdFlagSection{
+  width: 100%;
+
+}
+
+#ireland > .thirdFlagSection:nth-child(1){
+  background-color: green;
+}
+
+#ireland > .thirdFlagSection:nth-child(3){
+  background-color: orange;
+}
 
 /* France */
 
+#france {
+  font-size: 0px;
+}
+#france .fourthFlagSection {
+  display: inline-block;
+  height: 100%;
+  width: 33.33%;
+}
+
 /* Benin */
+
+#benin .fifthFlagSection {
+  height: 100%;
+}
+
+#benin .fifthFlagSection:nth-child(2){
+  width: 60.66%;
+  float: right;
+}
+
+#benin .fifthFlagSection:nth-child(1){
+  width: 39.33%;
+  float: left;
+}
+
+.fifthFlagSub {
+  height: 50%;
+}
 
 /* Sweden */
 
@@ -47,3 +118,27 @@
 /* United States */
 
 /* Seychelle */
+
+
+
+/* Colors */
+
+.redBackground {
+  background-color: red;
+}
+
+.whiteBackground {
+  background-color: white;
+}
+
+.yellowBackground {
+  background-color: rgb(247, 226, 33);
+}
+
+.blueBackground {
+  background-color: rgb(0, 0, 120);
+}
+
+.greenBackground {
+  background-color: rgb(0, 85, 0);
+}
