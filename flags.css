@@ -102,7 +102,30 @@
 }
 
 /* Switzerland */
+  #switzerland {
+    width: 20vmin;
+  }
 
+  .crossContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-left: 40%;
+    padding-top: 20%;
+  }
+
+  .seventhFlagSectionA {
+    height: 57%;
+    width: 20%;
+  }
+
+  .seventhFlagSectionB {
+    position: absolute;
+    height: 16%;
+    width: 46%;
+    top: 32%;
+    left: 12%;
+  }
 /* Tonga */
 
 /* Japan */
