@@ -127,7 +127,34 @@
     left: 12%;
   }
 /* Tonga */
+.eighthFlagSection {
+  height: 100%;
+  width: 100%;
+  background-color: red;
+}
 
+.tongaInnerContainer {
+  position: relative;
+  background-color: white;
+  height: 50%;
+  width: 40%;
+}
+
+.eighthFlagSectionA {
+  position: absolute;
+  height: 67%;
+  width: 20%;
+  top: 16%;
+  left: 38%;
+}
+
+.eighthFlagSectionB {
+  position: absolute;
+  height: 24%;
+  width: 50%;
+  top: 37%;
+  left: 23%;
+}
 /* Japan */
 
 /* Canada */
