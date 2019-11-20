@@ -156,7 +156,20 @@
   left: 23%;
 }
 /* Japan */
+.ninthFlagSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  width: 100%;
+}
 
+.risingSun {
+  height: 62%;
+  width: 36%;
+  border-radius: 50%;
+}
 /* Canada */
 
 /* Norway */
