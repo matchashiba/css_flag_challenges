@@ -171,6 +171,28 @@
   border-radius: 50%;
 }
 /* Canada */
+.tenthFlagSection {
+  height: 100%;
+}
+
+.canadaWhiteStripe {
+  height: 100%;
+  width: 46%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+
+}
+ .leaf {
+  height: 77%;
+  width: 94%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: url('./assets/images/canada_logo.png');
+  transform: rotateZ(27deg) translate(-68%, -20%);
+
+ }
 
 /* Norway */
 
