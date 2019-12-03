@@ -184,17 +184,35 @@
 
 }
  .leaf {
-  height: 77%;
-  width: 94%;
+  height: 71%;
+  width: 90%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  content: url('./assets/images/canada_logo.png');
-  transform: rotateZ(27deg) translate(-68%, -20%);
+  top: 66%;
+  left: 25%;
+  transform: rotateZ(27deg) translate(-50%, -50%);
+  background-image: url(./assets/images/canada_logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 
  }
 
 /* Norway */
+.eleventhFlagSection {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.norwayStripe1 {
+  position: relative;
+  height: 25%;
+  width: 100%;
+}
+
+.norwayStripe2 {
+  position: relative;
+  height: 100%;
+  width: 14%;
+}
 
 /* Greece */
 
@@ -250,4 +268,8 @@
 
 .lightBlueBackground {
   background-color: rgb(68, 111, 240);
+}
+
+.navyBackground {
+  background-color: rgb(4, 5, 90);
 }
