@@ -198,21 +198,46 @@
 
 /* Norway */
 .eleventhFlagSection {
+  position: relative;
   height: 100%;
-  width: 100%;
-  position: relative;
-}
-.norwayStripe1 {
-  position: relative;
-  height: 25%;
   width: 100%;
 }
 
+.norwayStripe1, .norwayStripe2, .innerStripe1, .innerStripe2 {
+  position: absolute;
+}
+
+.norwayStripe1 {
+  top: 50%;
+  height: 25%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
 .norwayStripe2 {
-  position: relative;
+  left: 30%;
   height: 100%;
   width: 14%;
+
 }
+
+.innerStripe1 {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 14%;
+}
+
+.innerStripe2 {
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 50%;
+}
+
+
+
+
 
 /* Greece */
 
