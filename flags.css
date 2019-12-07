@@ -235,12 +235,45 @@
   width: 50%;
 }
 
-
-
-
-
 /* Greece */
+.twelvethFlagSection {
+  height: 100%;
+  position: relative;
+}
 
+.upperBox {
+  height: 50%;
+  width: 33%;
+  top: 0;
+  left: 0;
+}
+
+.upperBox, .innerCross1, .innerCross2 {
+  position: absolute;
+}
+
+.innerCross1 {
+  height: 100%;
+  width: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.innerCross2 {
+  width: 100%;
+  height: 23%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.greeceStripes {
+  width: 100%;
+  height: 11%;
+}
+
+.twelvethFlagSection .greeceStripes:nth-child(odd){
+  background-color: #fff;
+}
 /* Somalia */
 
 /* Chile */
